@@ -22,7 +22,7 @@ namespace Company.Function
         public static  HttpResponseMessage Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             [CosmosDB(
-                databaseName:"azureresume",
+                databaseName:"DB-AzureResume",
                 containerName: "Counter",
                 Connection  = "AzureResumeConnectionString",
                 Id = "1",
@@ -30,7 +30,7 @@ namespace Company.Function
             )]
             Counter counter,
             [CosmosDB(
-                databaseName:"azureresume",
+                databaseName:"DB-AzureResume",
                 containerName: "Counter",
                 Connection  = "AzureResumeConnectionString",
                 Id = "1",

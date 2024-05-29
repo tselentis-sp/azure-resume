@@ -2,7 +2,7 @@
 window.addEventListener('DOMContentLoaded', (event)=>{
     getVisitCount();
 })
-const functionApiUrl = 'https://getresumecounter-tselentis.azurewebsites.net/api/GetResumeCounter?code=76N27rRYb81cx2NhZ3bh7b96vjERC4OCLpOTsQAPuxPIAzFuspbmjQ==';
+const functionApiUrl = 'https://getresumecounter-tselentis.azurewebsites.net/api/GetResumeCounter?code=XZJucdhEtYk2YdmuYmrVEm53ReAHJGPHxKvIVQPYq1VHAzFuCPjsJg==';
 const localfunctionApi = 'http://localhost:7071/api/GetResumeCounter';
 
 const getVisitCount = () => {
